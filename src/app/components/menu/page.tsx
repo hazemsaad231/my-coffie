@@ -68,7 +68,7 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
                             <p className="text-gray-400 mt-4 px-2 text-lg">We don’t just make your coffee, we make your day!</p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 p-10">
 
-{Data.map((item: any) => (
+{Data.map((item) => (
                                 <div key={item.id} className="flex flex-col items-center justify-center rounded-lg p-8 mt-2 w-max m-auto bg-orange-50 border-2 border-orange-100" style={{ fontFamily: 'Geist_Mono' }}>
                                     <Image src={item.image} alt={item.title} width={50} height={50} className="w-16 h-16 object-center mb-4" />
                                     <h2 className="text-xl font-bold text-amber-900 mb-2">{item.title}</h2>
