@@ -1,7 +1,6 @@
-
 import Image from "next/image"
 import Data from "../data/page"
-// import React from "react";
+import React from "react";
 
 
 const MenuPage = async () => {
@@ -35,16 +34,16 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
                     
                     <div key={coffee.id} className="flex flex-col items-center justify-center rounded-lg w-max m-auto bg-orange-50 border-2 border-orange-100">
                         
-                        <img src={coffee.image} alt="" className="object-center w-60 h-60"/>
+                        <Image src={coffee.image} alt="" width={200} height={200} className="object-center w-60 h-60"/>
                         <h2 className="text-xl font-bold text-amber-900 mb-2">{coffee.title}</h2>
                         <div className="flex flex-wrap justify-center items-center gap-1">
-                         {/* {coffee.ingredients.map((ingredient: string, index: number) => (
+                         {coffee.ingredients.map((ingredient: string, index: number) => (
                             < React.Fragment key={index}> <h2 className="text-gray-500 text-sm">{ingredient}</h2>
                             {index !== coffee.ingredients.length - 1 && <span className="text-gray-500">|</span>}
                             </ React.Fragment>
                             
                            
-                        ))} */}
+                        ))}
 
                         </div>
                      
