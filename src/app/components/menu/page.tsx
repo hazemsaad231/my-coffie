@@ -32,14 +32,14 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
         <div className="flex flex-col items-center justify-center pt-4" style={{ fontFamily: 'Geist_Mono' }} id='menu'>
 
             <div className="text-center">
-            <h1 className="text-5xl font-bold text-amber-900" style={{ fontFamily: 'Combo' }}>Enjoy a new blend of coffee style</h1>
-            <p className="text-gray-400 mt-4 text-lg">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+            <h1 className="text-5xl font-bold text-amber-900 p-2" style={{ fontFamily: 'Combo' }}>Enjoy a new blend of coffee style</h1>
+            <p className="text-gray-400 mt-4 text-lg p-2">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 mb-20 p-5">
                 {myCoffees.map((coffee: Coffee) => (
                     
                     <div key={coffee.id} className="flex flex-col items-center justify-center rounded-lg w-max m-auto bg-orange-50 border-2 border-orange-100">
                         
-                        <Image src={coffee.image} alt="" width={200} height={200} className="object-center w-60 h-60"/>
+                        <Image src={coffee.image} alt="" width={200} height={200} className="object-center w-68 h-68"/>
                         <h2 className="text-xl font-bold text-amber-900 mb-2">{coffee.title}</h2>
                         <div className="flex flex-wrap justify-center items-center gap-1">
                          {coffee.ingredients.map((ingredient: string, index: number) => (

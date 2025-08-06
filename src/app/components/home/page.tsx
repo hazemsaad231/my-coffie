@@ -13,7 +13,7 @@ const HomePage = () => {
         className="absolute inset-0 bg-cover bg-center" 
         
       />
-      <Image src="/img/coffee_image.png" alt="Coffee background" layout="fill" objectFit="cover" />
+      <Image src="/img/coffee_image.png" alt="Coffee background" layout="fill" objectFit="center" />
 
       {/* التدرج (Gradient) فوق الخلفية */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#1E1E1E] to-transparent" />
