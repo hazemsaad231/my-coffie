@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Data from "../data/page"
+import Data from "../data/data"
 import React from "react";
 
 
