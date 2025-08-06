@@ -32,7 +32,7 @@ const [isOpen, setIsOpen] = useState(true)
                 isOpen && (
                      <ul className="flex gap-12 text-white text-lg font-serif ">
                 <li className="cursor-pointer hover:text-[#F9C06A]"><a href="#home">Home</a></li>
-                <li className="cursor-pointer hover:text-[#F9C06A]"><a href="#menu">Menu</a></li>
+                <li className="cursor-pointer hover:text-[#F9C06A]"><a href="#about">Menu</a></li>
                 <li className="cursor-pointer hover:text-[#F9C06A]">About Us</li>
                 <li className="cursor-pointer hover:text-[#F9C06A]">Contact Us</li>
             </ul>
@@ -51,9 +51,9 @@ const [isOpen, setIsOpen] = useState(true)
 <div className='bg-amber-300 p-4 rounded-lg shadow-lg'>
     <ul className='flex gap-4 text-white text-md font-serif justify-center items-center'>
          <li className="cursor-pointer hover:text-[#F9C06A]"><a href="#home">Home</a></li>
-             <li className="cursor-pointer hover:text-[#F9C06A]"><a href="#menu">Menu</a></li>
-              <li className="cursor-pointer hover:text-[#F9C06A]">About Us</li>
-                <li className="cursor-pointer hover:text-[#F9C06A]">Contact Us</li>
+         <li className="cursor-pointer hover:text-[#F9C06A]"><a href="#about">Menu</a></li>
+        <li className="cursor-pointer hover:text-[#F9C06A]">About Us</li>
+        <li className="cursor-pointer hover:text-[#F9C06A]">Contact Us</li>
     </ul>
 </div>
         </div>
