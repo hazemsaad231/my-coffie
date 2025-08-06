@@ -1,9 +1,20 @@
-import React from "react"
+'use client'
+
+import React from 'react';
 import Image from "next/image"
 import Data from "../data/page"
 
 
 const MenuPage = async () => {
+
+    interface Coffee {
+        id: number;
+        title: string;
+        image: string;
+        ingredients: string[];
+    }
+
+ 
 
  const data = await fetch('https://api.sampleapis.com/coffee/hot')
   const coffees = await data.json()
@@ -21,7 +32,7 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
             <h1 className="text-5xl font-bold text-amber-900" style={{ fontFamily: 'Combo' }}>Enjoy a new blend of coffee style</h1>
             <p className="text-gray-400 mt-4 text-lg">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 mb-20 p-5">
-                {myCoffees.map((coffee: any) => (
+                {myCoffees.map((coffee: Coffee) => (
                     
                     <div key={coffee.id} className="flex flex-col items-center justify-center rounded-lg w-max m-auto bg-orange-50 border-2 border-orange-100">
                         
@@ -59,7 +70,7 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
                             <p className="text-gray-400 mt-4 px-2 text-lg">We don’t just make your coffee, we make your day!</p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 p-10">
 
-{Data.map((item) => (
+{Data.map((item: any) => (
                                 <div key={item.id} className="flex flex-col items-center justify-center rounded-lg p-8 mt-2 w-max m-auto bg-orange-50 border-2 border-orange-100" style={{ fontFamily: 'Geist_Mono' }}>
                                     <Image src={item.image} alt={item.title} width={50} height={50} className="w-16 h-16 object-center mb-4" />
                                     <h2 className="text-xl font-bold text-amber-900 mb-2">{item.title}</h2>
