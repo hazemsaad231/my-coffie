@@ -19,11 +19,11 @@ const HeroPage = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-[#1E1E1E] to-transparent" />
 
       {/* المحتوى فوق كل شيء */}
-      <div className="relative z-10 flex flex-col gap-3 justify-center h-full   text-white" style={{ fontFamily: 'Geist_Mono' }}>
+      <div className="relative z-10 flex flex-col gap-3 justify-center h-full   text-white">
         <h4 className="text-xl font-semibold">
           We’ve got your morning covered with the best coffee in town!
         </h4>
-        <h1 className="text-6xl sm:text-6xl md:text-8xl lg:text-9xl py-6 tracking-[0.3em]" style={{ fontFamily: 'Combo' }} >Coffee</h1>
+        <h1 className="text-6xl sm:text-6xl md:text-8xl lg:text-9xl py-6 tracking-[0.3em]">Coffee</h1>
 
         <h6 className='w-full sm:w-1/2 md:w-1/2 lg:w-1/2 text-xl'>
           It is best to start your day with a cup of coffee. Discover the

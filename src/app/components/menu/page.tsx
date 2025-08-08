@@ -29,10 +29,10 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
 
     return (
 <>
-        <div className="flex flex-col items-center justify-center pt-4" style={{ fontFamily: 'Geist_Mono' }} id='menu'>
+        <div className="flex flex-col items-center justify-center pt-4" id='menu'>
 
             <div className="text-center">
-            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 p-2" style={{ fontFamily: 'Combo' }}>Enjoy a new blend of coffee style</h1>
+            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 p-2">Enjoy a new blend of coffee style</h1>
             <p className="text-gray-400 mt-4 text-lg p-2">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 mb-20 p-2">
                 {myCoffees.map((coffee: Coffee) => (

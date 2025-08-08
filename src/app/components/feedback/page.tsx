@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const FedbackPage = () => {
   return (
-    <div className='text-center py-10'style={{ fontFamily: 'Geist_Mono' }}>
+    <div className='text-center py-10'>
     <div className="flex flex-col justify-end items-center " >
     <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 p-2">Our coffee perfection feedback</h1>
     <p className="text-gray-500 text-lg p-2">Our customers has amazing things to say about us</p>

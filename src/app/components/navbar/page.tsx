@@ -22,7 +22,7 @@ const [isOpen, setIsOpen] = useState(true)
 
             
 
-            <h1 className="text-white text-2xl" style={{ fontFamily: 'Combo' }}>Bean Scene</h1>
+            <h1 className="text-white text-2xl">Bean Scene</h1>
         </div>
         
         {/* desktop menu */}
