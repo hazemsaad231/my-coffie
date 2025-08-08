@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Navbar from '../navbar/page';
 
-const HomePage = () => {
+const HeroPage = () => {
   return (
     <div className="h-screen pb-10 pt-5 relative px-4 sm:px-10 md:px-12 lg:px-20" id='home'>
 
@@ -35,4 +35,4 @@ const HomePage = () => {
     </div>
   );
 };
-export default HomePage;
+export default HeroPage;

@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 
-const ProductPage = () => {
+const ServicesPage = () => {
   return (
 
     <div>
@@ -49,4 +49,4 @@ const ProductPage = () => {
     </div>
   );
 };
-export default ProductPage;
+export default ServicesPage;
