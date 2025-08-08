@@ -6,14 +6,15 @@ const FedbackPage = () => {
     <div className="flex flex-col justify-end items-center " >
     <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 p-2">Our coffee perfection feedback</h1>
     <p className="text-gray-500 text-lg p-2">Our customers has amazing things to say about us</p>
+    
     <div className="flex flex-col w-7/8 sm:w-7/8 md:w-3/4 lg:w-3/4 rounded-lg pt-4 mt-2 bg-orange-50 border-2 border-orange-100">
-     <div className="absolute right-0 z-5 w-[150px] sm:w-[200px] md:w-[250px] lg:w-[300px] xl:w-[300px]">
+      <div className="absolute right-0 z-5 w-[150px] sm:w-[200px] md:w-[250px] lg:w-[300px] xl:w-[300px]">
       <Image
         src="/img/coffee_blast2.png"
         alt="Coffee background"
         width={500}
         height={500}
-        className="w-full h-auto object-contain"
+        className="w-full h-auto object-contain  relative md:bottom-25"
       />
     </div>
     <div className='text-8xl font-bold text-amber-900 relative right-60'>‘‘</div>
