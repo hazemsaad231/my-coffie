@@ -9,7 +9,7 @@ const AboutPage = () => {
      <div className="mt-20">
 
         <div className="px-10 sm:px-10 md:px-20 lg:px-20">
-        <h1 className='text-5xl text-amber-900 font-bold mb-4' style={{ fontFamily: 'Combo' }}>
+        <h1 className='text-4xl sm:text-4xl md:text-5xl lg:text-5xl text-amber-900 font-bold mb-4' style={{ fontFamily: 'Combo' }}>
                 Discover the best coffee
          </h1>
  

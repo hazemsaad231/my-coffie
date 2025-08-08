@@ -32,7 +32,7 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
         <div className="flex flex-col items-center justify-center pt-4" style={{ fontFamily: 'Geist_Mono' }} id='menu'>
 
             <div className="text-center">
-            <h1 className="text-5xl font-bold text-amber-900 p-2" style={{ fontFamily: 'Combo' }}>Enjoy a new blend of coffee style</h1>
+            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 p-2" style={{ fontFamily: 'Combo' }}>Enjoy a new blend of coffee style</h1>
             <p className="text-gray-400 mt-4 text-lg p-2">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 mb-20 p-5">
                 {myCoffees.map((coffee: Coffee) => (
@@ -66,8 +66,8 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
         </div>
     {/* <div  className="absolute right-0 hidden lg:block"> <Image src="/img/coffee_blast2.png" alt="About Coffee" width={300} height={300}  /> </div> */}
 
-                        <div className="flex flex-col items-center justify-center text-center ">
-                            <h1 className="text-5xl font-bold text-amber-900 mb-1" style={{ fontFamily: 'Combo' }}>
+                        <div className="flex flex-col items-center justify-center text-center py-20">
+                            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-1" style={{ fontFamily: 'Combo' }}>
                                 Why are we different?
                             </h1>
                             <p className="text-gray-400 mt-4 px-2 text-lg">We don’t just make your coffee, we make your day!</p>
