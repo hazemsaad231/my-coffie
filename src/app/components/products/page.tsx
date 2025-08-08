@@ -28,13 +28,13 @@ const ProductPage = () => {
         <h6 className='w-full sm:w-full md:w-3/4 lg:w-3/4 text-sm sm:text-sm md:text-lg lg:text-xl'>
           We are giving you are one time opportunity to experience a better life with coffee.
         </h6>
-        <button className="bg-[#F9C06A] px-4 text-sm py-2 mt-4 w-max rounded-full cursor-pointer my-4">Order Now</button>
+        <button className="bg-[#F9C06A] px-4 text-black py-2 mt-4 w-max rounded-full cursor-pointer my-4">Order Now</button>
       </div>
       <div className='z-10 py-10'>
  <Image src="/img/cup.png" alt="Coffee product" width={300} height={300} />
       </div>
         </div>
-    <div className="absolute right-0 bottom-0 z-5 w-[200px] sm:w-[200px] md:w-[400px] lg:w-[400px] xl:w-[500px]">
+    <div className="absolute right-0 bottom-0 z-5 w-[200px] sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[500px]">
   <Image
     src="/img/coffee_bean.png"
     alt="Coffee background"
