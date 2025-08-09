@@ -69,16 +69,16 @@ const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:
     {/* <div  className="absolute right-0 hidden lg:block"> <Image src="/img/coffee_blast2.png" alt="About Coffee" width={300} height={300}  /> </div> */}
 
                         <div className="flex flex-col items-center justify-center text-center py-20">
-                            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-1" style={{ fontFamily: 'Combo' }}>
+                            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-1">
                                 Why are we different?
                             </h1>
                             <p className="text-gray-400 mt-4 px-2 text-lg">We don’t just make your coffee, we make your day!</p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 p-10">
 
 {Data.map((item: data) => (
-                                <div key={item.id} className="flex flex-col items-center justify-center rounded-lg p-8 mt-2 w-max m-auto bg-orange-50 border-2 border-orange-100" style={{ fontFamily: 'Geist_Mono' }}>
+                                <div key={item.id} className="flex flex-col items-center justify-center rounded-lg p-8 mt-2 w-max m-auto bg-orange-50 border-2 border-orange-100">
                                     <Image src={item.image} alt={item.title} width={50} height={50} className="w-16 h-16 object-center mb-4" />
-                                    <h2 className="text-xl font-bold text-amber-900 mb-2">{item.title}</h2>
+                                    <h2 className="text-xl text-amber-900 mb-2">{item.title}</h2>
                                     <p className="text-gray-500 text-sm">{item.text}</p>
                                 </div>
 ))}
