@@ -9,17 +9,14 @@ const HeroPage = () => {
       <Navbar />
 
       {/* الخلفية - الصورة */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center" 
-        
-      />
-      <Image src="/img/coffee_image.png" alt="Coffee background" layout="fill" objectFit="cover" />
+     
+      <Image src="/img/coffee_image.png" alt="Coffee background" layout="fill" objectFit="cover" priority />
 
       {/* التدرج (Gradient) فوق الخلفية */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#1E1E1E] to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#1E1E1E] to-transparent z-5" />
 
       {/* المحتوى فوق كل شيء */}
-      <div className="relative z-10 flex flex-col gap-3 justify-center h-full   text-white">
+      <div className="relative z-10 flex flex-col gap-3 justify-center h-full text-white">
         <h4 className="text-xl font-semibold">
           We’ve got your morning covered with the best coffee in town!
         </h4>
