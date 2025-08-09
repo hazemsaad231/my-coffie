@@ -23,7 +23,9 @@ interface data {
   const myCoffees = coffees.slice(0, 4) // Limit to 8 items for display
 
 
-const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:4, price:'5$'}, {id:5, price:'6$'}, {id:6, price:'3.50$'}, {id:7, price:'4$'}, {id:8, price:'2.50$'}]
+const prices = [{id:1, price:'2$'}, {id:2, price:'3$'}, {id:3, price:'4$'}, {id:4, price:'5$'}, {id:5, price:'6$'}, {id:6, price:'3.50$'}, {id:7, price:'4$'}, {id:8, price:'2.50$'},
+    {id:9, price:'2$'}, {id:10, price:'3$'}, {id:11, price:'4$'}, {id:12, price:'5$'}, {id:13, price:'6$'}, {id:14, price:'3.50$'}, {id:15, price:'4$'}, {id:16, price:'2.50$'},
+]
 
   
 
