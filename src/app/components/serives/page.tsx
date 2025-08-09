@@ -21,7 +21,7 @@ const ServicesPage = () => {
       {/* المحتوى فوق كل شيء */}
       <div className='relative z-10 flex justify-around items-center'>
  <div className="flex flex-col gap-3 px-5 sm:px-10 md:px-20 lg:px-20 text-white" style={{ fontFamily: 'Geist_Mono' }}>
-        <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-5xl w-full sm:w-full md:w-3/4 lg:w-3/4" style={{ fontFamily: 'Combo' }} >
+        <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl w-full sm:w-full md:w-3/4 lg:w-3/4" style={{ fontFamily: 'Combo' }} >
             Get a chance to have an Amazing morning
         </h1>
 

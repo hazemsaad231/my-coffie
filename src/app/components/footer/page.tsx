@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const FooterPage = () => {
     return (
-        <>
+        <footer id='contact'>
             <div className="relative">
             
             
@@ -112,7 +112,7 @@ const FooterPage = () => {
                 
            
            
-            </>
+            </footer>
     );
 }
 export default FooterPage;
