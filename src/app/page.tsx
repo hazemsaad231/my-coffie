@@ -1,5 +1,6 @@
 import AboutPage from './components/about/page';
 import FedbackPage from './components/feedback/page';
+import FooterPage from './components/footer/page';
 import HeroPage from './components/hero/page';
 import MenuPage from './components/menu/page';
 import SerivesPage from './components/serives/page';
@@ -13,6 +14,7 @@ export default function Home() {
       <MenuPage/>
       <SerivesPage/>
       <FedbackPage/>
+      <FooterPage/>
 
     </div>
   );

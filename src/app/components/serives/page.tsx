@@ -4,7 +4,7 @@ import Image from 'next/image';
 const ServicesPage = () => {
   return (
 
-    <div>
+    <>
     <div className="relative">
 
 
@@ -46,7 +46,7 @@ const ServicesPage = () => {
       
     </div>
    
-    </div>
+    </>
   );
 };
 export default ServicesPage;
